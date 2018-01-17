@@ -9,22 +9,50 @@ These instructions will help you to setup your backend server and runnig on your
 * [Node.js](https://nodejs.org/en/)
 * [MySQL](https://dev.mysql.com/downloads/mysql/)
 
-
 **Installation**
-
-The [NPM](https://www.npmjs.com/) program is installed on your computer when you install Node.js
-
+### Node.js
+To make sure you have Node and [NPM](https://www.npmjs.com/)(Which is installed on your computer when you install Node.js) installed, run two simple commands to see what version of each is installed:
 ```
-# Install dependencies
-npm install 
+node -v
+
+npm -v
 ```
+Install Node.js
+[Homebrew](https://brew.sh/) is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing `brew install node`.
+```
+brew install node
+```
+You can download it directly from [NodeJS.org](https://nodejs.org/en/)
+
+### MySQL
+
+You can download MySQL Community Server drectly from [MySQL website](https://dev.mysql.com/downloads/mysql/)
+
+Login MySQL database by terminal:
+You either need to use the full path (/usr/local/mysql/bin/mysql_executable_here) or add it to your $PATH:
+```
+export PATH="$PATH:/usr/local/mysql/bin"
+```
+```
+/usr/local/mysql/bin/mysql -u username -p
+Enter password:
+```
+Login MySQL database by IDE:
+MySQL [WrokBench](https://dev.mysql.com/downloads/workbench/) is a visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. 
+
 
 ## Start 
 
+**Install dependencies**
+
+```
+## Go to your project folder
+cd  ./AdminPortalBackend
+
+npm install 
+```
 **Starting with node**
 ```
-# Go to your project folder
-cd  ./AdminPortalBackend
 # Start node server
 node server/server.js
 ```
