@@ -9,25 +9,32 @@ These instructions will help you to setup your backend server and runnig on your
 * [MySQL](https://dev.mysql.com/downloads/mysql/)
 
 **Installation**
-* Node.js
-To make sure you have Node and [NPM](https://www.npmjs.com/)(Which is installed on your computer when you install Node.js) installed, run two simple commands to see what version of each is installed:
+* Install Node.js
+
+1. To make sure you have Node and [NPM](https://www.npmjs.com/)(Which is installed on your computer when you install Node.js) installed, run two simple commands to see what version of each is installed:
 ```
 node -v
 
 npm -v
 ```
-Install Node.js
+
+2. Install from website
+You can download it directly from [NodeJS.org](https://nodejs.org/en/)
+
+3. Install by Homebrew
 [Homebrew](https://brew.sh/) is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing `brew install node`.
 ```
 brew install node
 ```
-You can download it directly from [NodeJS.org](https://nodejs.org/en/)
+
 
 * MySQL
 
+1. Install from website
+
 You can download MySQL Community Server drectly from [MySQL Website](https://dev.mysql.com/downloads/mysql/)
 
-Login MySQL database by terminal:
+2. Login MySQL database by terminal:
 You either need to use the full path (/usr/local/mysql/bin/mysql_executable_here)
 ```
 /usr/local/mysql/bin/mysql -u username -p
@@ -44,7 +51,7 @@ mysql -u username -p
 Enter password:
 ```
 
-Login MySQL database by IDE:
+3. Login MySQL database by IDE:
 
 MySQL [WrokBench](https://dev.mysql.com/downloads/workbench/) is a visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. 
 
