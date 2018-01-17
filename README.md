@@ -65,9 +65,9 @@ These instructions will help you to setup your backend server and runnig on your
      WorkBench -> Users and privileges -> login
     ```
 - Database table naming Convention
-  - `user` or `groupOfCameras`
-     A table
-  - `group_camera`
+  - `user` - A user table
+  - `groupOfCameras` - A camera group table
+  - `group_camera` - A table include camera group and camera.
 ## Start 
 
 **Install dependencies**
