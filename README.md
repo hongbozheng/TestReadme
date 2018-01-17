@@ -19,7 +19,7 @@ npm -v
 ```
 
 2. Install from website
-You can download it directly from [NodeJS.org](https://nodejs.org/en/)
+   - You can download it directly from [NodeJS.org](https://nodejs.org/en/)
 
 3. Install by Homebrew
 [Homebrew](https://brew.sh/) is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing `brew install node`.
@@ -28,20 +28,21 @@ brew install node
 ```
 
 
-* MySQL
+* Install MySQL
 
 1. Install from website
 
-You can download MySQL Community Server drectly from [MySQL Website](https://dev.mysql.com/downloads/mysql/)
+   - You can download MySQL Community Server drectly from [MySQL Website](https://dev.mysql.com/downloads/mysql/)
 
 2. Login MySQL database by terminal:
-You either need to use the full path (/usr/local/mysql/bin/mysql_executable_here)
+
+   - You either need to use the full path (/usr/local/mysql/bin/mysql_executable_here)
 ```
 /usr/local/mysql/bin/mysql -u username -p
 Enter password:
 ```
 
-or add it to your $PATH:
+   - Or add it to your $PATH:
 ```
 # Add to $PATH
 export PATH="$PATH:/usr/local/mysql/bin"
