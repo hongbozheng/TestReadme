@@ -15,6 +15,7 @@ These instructions will help you to setup your backend server and runnig on your
 The [NPM](https://www.npmjs.com/) program is installed on your computer when you install Node.js
 
 ```
+# Install dependencies
 npm install 
 ```
 
@@ -22,12 +23,15 @@ npm install
 
 **Starting with node**
 ```
+# Go to your project folder
 cd  ./AdminPortalBackend
+# Start node server
 node server/server.js
 ```
 **Starting with nodemon**
 
 [Nodemon](https://nodemon.io/) is a utility that will monitor for any changes in your source and automatically restart your server.
 ```
+# start node server
 nodemon server/server.js
 ```
