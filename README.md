@@ -12,11 +12,11 @@ These instructions will help you to setup your backend server and runnig on your
 ###### Install Node.js
 
   - To make sure you have Node and [NPM](https://www.npmjs.com/)(Which is installed on your computer when you install Node.js) installed, run two simple commands to see what version of each is installed:
-```
-node -v
+  ```
+  node -v
 
-npm -v
-```
+  npm -v
+  ```
 
  - Install from website
    - You can download it directly from [NodeJS.org](https://nodejs.org/en/)
@@ -24,9 +24,9 @@ npm -v
  - Install by Homebrew
 
    - [Homebrew](https://brew.sh/) is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing `brew install node`.
-    ```
-    brew install node
-    ```
+     ```
+     brew install node
+     ```
 
 
 ###### Install MySQL
@@ -37,19 +37,17 @@ npm -v
 
 - Login MySQL database by terminal:
 
-  - (`/usr/local/mysql/bin/mysql_executable_here`):
-```
-# You either need to use the full path:
+  ```
+# You can use the full path:
 /usr/local/mysql/bin/mysql -u username -p
 Enter password:
   
-#Or add it to your $PATH:
+# Or add it to your $PATH:
 export PATH="$PATH:/usr/local/mysql/bin"
-```
-# Login
+
 mysql -u username -p
 Enter password:
-```
+  ```
 
 - Login MySQL database by IDE
 
