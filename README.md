@@ -24,9 +24,9 @@ npm -v
  - Install by Homebrew
 
    - [Homebrew](https://brew.sh/) is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing `brew install node`.
-```
-brew install node
-```
+    ```
+    brew install node
+    ```
 
 
 ###### Install MySQL
@@ -37,16 +37,15 @@ brew install node
 
 - Login MySQL database by terminal:
 
-  - You either need to use the full path (`/usr/local/mysql/bin/mysql_executable_here`):
+  - (`/usr/local/mysql/bin/mysql_executable_here`):
 ```
+# You either need to use the full path:
 /usr/local/mysql/bin/mysql -u username -p
 Enter password:
-```
-  - Or add it to your $PATH:
-```
-# Add to $PATH
+  
+#Or add it to your $PATH:
 export PATH="$PATH:/usr/local/mysql/bin"
-
+```
 # Login
 mysql -u username -p
 Enter password:
