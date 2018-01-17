@@ -1,4 +1,3 @@
-# TestReadme
 # Overview
 This is an admin portal Node.js app using [Express 4](http://expressjs.com/).
 
@@ -10,7 +9,7 @@ These instructions will help you to setup your backend server and runnig on your
 * [MySQL](https://dev.mysql.com/downloads/mysql/)
 
 **Installation**
-### Node.js
+* Node.js
 To make sure you have Node and [NPM](https://www.npmjs.com/)(Which is installed on your computer when you install Node.js) installed, run two simple commands to see what version of each is installed:
 ```
 node -v
@@ -24,20 +23,29 @@ brew install node
 ```
 You can download it directly from [NodeJS.org](https://nodejs.org/en/)
 
-### MySQL
+* MySQL
 
-You can download MySQL Community Server drectly from [MySQL website](https://dev.mysql.com/downloads/mysql/)
+You can download MySQL Community Server drectly from [MySQL Website](https://dev.mysql.com/downloads/mysql/)
 
 Login MySQL database by terminal:
-You either need to use the full path (/usr/local/mysql/bin/mysql_executable_here) or add it to your $PATH:
-```
-export PATH="$PATH:/usr/local/mysql/bin"
-```
+You either need to use the full path (/usr/local/mysql/bin/mysql_executable_here)
 ```
 /usr/local/mysql/bin/mysql -u username -p
 Enter password:
 ```
+
+or add it to your $PATH:
+```
+# Add to $PATH
+export PATH="$PATH:/usr/local/mysql/bin"
+
+# Login
+mysql -u username -p
+Enter password:
+```
+
 Login MySQL database by IDE:
+
 MySQL [WrokBench](https://dev.mysql.com/downloads/workbench/) is a visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. 
 
 
@@ -46,7 +54,7 @@ MySQL [WrokBench](https://dev.mysql.com/downloads/workbench/) is a visual databa
 **Install dependencies**
 
 ```
-## Go to your project folder
+# Go to your project folder
 cd  ./AdminPortalBackend
 
 npm install 
