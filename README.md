@@ -11,7 +11,9 @@ These instructions will help you to setup your backend server and runnig on your
 
 
 **Installation**
+
 The [NPM](https://www.npmjs.com/) program is installed on your computer when you install Node.js
+
 ```
 npm install 
 ```
