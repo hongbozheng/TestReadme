@@ -60,11 +60,14 @@ These instructions will help you to setup your backend server and runnig on your
      GRANT ALL PRIVILEGES ON *.* TO ‘username’@‘%’ IDENTIFIED BY 'password' WITH GRANT OPTION;
      FLUSH PRIVILEGES;
     ```
-  - Workbench:
+  - WorkBench:
     ```
-    workbench -> Users and privileges -> login
+     WorkBench -> Users and privileges -> login
     ```
-
+- Database table naming Convention
+  - `user` or `groupOfCameras`
+     A table
+  - `group_camera`
 ## Start 
 
 **Install dependencies**
