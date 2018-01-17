@@ -54,6 +54,16 @@ These instructions will help you to setup your backend server and runnig on your
 
   - MySQL [WrokBench](https://dev.mysql.com/downloads/workbench/) is a visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. 
 
+- Make mysql remote access
+  - Command line: 
+    ```
+     GRANT ALL PRIVILEGES ON *.* TO ‘username’@‘%’ IDENTIFIED BY 'password' WITH GRANT OPTION;
+     FLUSH PRIVILEGES;
+    ```
+  - Workbench:
+    ```
+    workbench -> Users and privileges -> login
+    ```
 
 ## Start 
 
