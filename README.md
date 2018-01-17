@@ -12,11 +12,12 @@ These instructions will help you to setup your backend server and runnig on your
 ###### Install Node.js
 
   - To make sure you have Node and [NPM](https://www.npmjs.com/)(Which is installed on your computer when you install Node.js) installed, run two simple commands to see what version of each is installed:
-  ```
-  node -v
+  
+    ```
+    node -v
 
-  npm -v
-  ```
+    npm -v
+    ```
 
  - Install from website
    - You can download it directly from [NodeJS.org](https://nodejs.org/en/)
@@ -37,17 +38,17 @@ These instructions will help you to setup your backend server and runnig on your
 
 - Login MySQL database by terminal:
 
-  ```
-# You can use the full path:
-/usr/local/mysql/bin/mysql -u username -p
-Enter password:
+   ```
+   # You can use the full path:
+   /usr/local/mysql/bin/mysql -u username -p
+   Enter password:
   
-# Or add it to your $PATH:
-export PATH="$PATH:/usr/local/mysql/bin"
+   # Or add it to your $PATH:
+   export PATH="$PATH:/usr/local/mysql/bin"
 
-mysql -u username -p
-Enter password:
-  ```
+   mysql -u username -p
+   Enter password:
+   ```
 
 - Login MySQL database by IDE
 
