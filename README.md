@@ -37,12 +37,11 @@ brew install node
 
 - Login MySQL database by terminal:
 
-  - You either need to use the full path (`/usr/local/mysql/bin/mysql_executable_here`)
+  - You either need to use the full path (`/usr/local/mysql/bin/mysql_executable_here`):
 ```
 /usr/local/mysql/bin/mysql -u username -p
 Enter password:
 ```
-
   - Or add it to your $PATH:
 ```
 # Add to $PATH
