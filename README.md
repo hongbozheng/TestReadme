@@ -11,7 +11,7 @@ These instructions will help you to setup your backend server and runnig on your
 **Installation**
 * Install Node.js
 
-- To make sure you have Node and [NPM](https://www.npmjs.com/)(Which is installed on your computer when you install Node.js) installed, run two simple commands to see what version of each is installed:
+  - To make sure you have Node and [NPM](https://www.npmjs.com/)(Which is installed on your computer when you install Node.js) installed, run two simple commands to see what version of each is installed:
 ```
 node -v
 
