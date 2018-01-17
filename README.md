@@ -18,10 +18,10 @@ node -v
 npm -v
 ```
 
-2. - Install from website
+ - Install from website
    - You can download it directly from [NodeJS.org](https://nodejs.org/en/)
 
-3. Install by Homebrew
+ - Install by Homebrew
 
    - [Homebrew](https://brew.sh/) is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing `brew install node`.
 ```
@@ -29,21 +29,21 @@ brew install node
 ```
 
 
-* Install MySQL
+###### Install MySQL
 
-1. Install from website
+- Install from website
 
    - You can download MySQL Community Server drectly from [MySQL Website](https://dev.mysql.com/downloads/mysql/)
 
-2. Login MySQL database by terminal:
+- Login MySQL database by terminal:
 
-   - You either need to use the full path (`/usr/local/mysql/bin/mysql_executable_here`)
+  - You either need to use the full path (`/usr/local/mysql/bin/mysql_executable_here`)
 ```
 /usr/local/mysql/bin/mysql -u username -p
 Enter password:
 ```
 
-   - Or add it to your $PATH:
+  - Or add it to your $PATH:
 ```
 # Add to $PATH
 export PATH="$PATH:/usr/local/mysql/bin"
@@ -53,9 +53,9 @@ mysql -u username -p
 Enter password:
 ```
 
-3. Login MySQL database by IDE:
+- Login MySQL database by IDE
 
-MySQL [WrokBench](https://dev.mysql.com/downloads/workbench/) is a visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. 
+  - MySQL [WrokBench](https://dev.mysql.com/downloads/workbench/) is a visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system. 
 
 
 ## Start 
