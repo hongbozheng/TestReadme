@@ -9,7 +9,7 @@ These instructions will help you to setup your backend server and runnig on your
 * [MySQL](https://dev.mysql.com/downloads/mysql/)
 
 **Installation**
-* Install Node.js
+###### Install Node.js
 
   - To make sure you have Node and [NPM](https://www.npmjs.com/)(Which is installed on your computer when you install Node.js) installed, run two simple commands to see what version of each is installed:
 ```
@@ -18,7 +18,7 @@ node -v
 npm -v
 ```
 
-2. Install from website
+2. - Install from website
    - You can download it directly from [NodeJS.org](https://nodejs.org/en/)
 
 3. Install by Homebrew
