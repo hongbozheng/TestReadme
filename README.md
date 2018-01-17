@@ -67,7 +67,7 @@ These instructions will help you to setup your backend server and runnig on your
 - Database table naming Convention
   - `user` - A user table
   - `groupOfCameras` - A camera group table
-  - `group_camera` - A table include camera group and camera.
+  - `group_camera` - A table includes camera group and camera.
 ## Start 
 
 **Install dependencies**
