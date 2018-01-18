@@ -64,10 +64,23 @@ These instructions will help you to setup your backend server and runnig on your
     ```
      WorkBench -> Users and privileges -> login
     ```
+- Import test data into your database
+  
+  ```
+  # Create a new database and populate it with the dumped data
+  CREATE DATABASE my_project_copy;
+  # Use the database
+  USE my_project_copy;
+  # Populate data with full path of testData.sql
+  SOURCE testData.sql;
+  
+  ```
 - Database table naming Convention
   - `user` - A user table
   - `groupOfCameras` - A camera group table
   - `group_camera` - A table includes camera group and camera.
+  
+  
 ## Start 
 
 **Install dependencies**
